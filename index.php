@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@400;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="HBS.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
 </head>
 <body>
 
@@ -38,28 +39,24 @@
   </div>
 </nav>
 
-<div class="container fluid">
-<div class="swiper swiper-container">
+  <div class="container fluid">
+    <div class="swiper swiper-container">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="images/hall1.jpg"  class="h-50 w-100 d-block"/>
+          <img src="images/hall1.jpg"  class="w-100 img-fluid"/>
         </div>
         <!-- <div class="swiper-slide">
-          <img src="images/hall3.png"  class="h-50 w-100 d-block"/>
-        </div>
-        <div class="swiper-slide">
-          <img src="images/hall1.png"  class="h-50 w-100 d-block"/>
-        </div>
-        <div class="swiper-slide">
-          <img src="images/conference.png" class="w-100 d-block"/>
+          <img src="images/hall3.png"  class="h-50 w-100 d-block img-fluid"/>
         </div> -->
+        <div class="swiper-slide">
+          <img src="images/conference.png" class="w-100 img-fluid"/>
+        </div>
       </div>
     </div>
-</div>
+  </div>
 
 
-
-    <div class="container">
+    <div class="container availability-form">
         <div class="row">
             <div class="col-lg-12 bg-white shadow p-4 rounded">
                 <h5 class="mb-4">Search Halls Availability</h5>
@@ -245,13 +242,247 @@
       </div>
     </section>
 
-        <!-- Footer -->
-        <footer class="p-5 bg-dark text-white text-center position-relative">
+    <!-- our halls -->
+    <h2 class="mt-5 pt-4 mb-4 text-center fw-bold my-3">OUR HALLS</h2>
+    
+<div class="container mt-4">
+    <div class="row">
+
+      <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+           <img class="card-img-top" src="images/hall1.jpg" >
+           <div class="card-body">
+
+              <h5 class="card-title">Hall Name</h5>
+              <h6 class="mb-4">Rs. 1000 per person</h6>
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Wi-Fi</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Sound System</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Air Conditioner</span>
+              </div>
+              <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <i class="bi bi-star-fill text-warning"></i>
+                <span>4.6</span>
+              </div>
+              <div class="d-flex justify-content-evenly mb-2">
+               <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+               <a href="#" class="btn btn-sm btn-outline-dark">More details</a>
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+           <img class="card-img-top" src="images/hall1.jpg" >
+           <div class="card-body">
+              <h5 class="card-title">Hall Name</h5>
+              <h6 class="mb-4">Rs. 1000 per person</h6>
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Wi-Fi</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Sound System</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Air Conditioner</span>
+              </div>
+              <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <i class="bi bi-star-fill text-warning"></i>
+                <span>4.6</span>
+              </div>
+              <div class="d-flex justify-content-evenly mb-2">
+               <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+               <a href="#" class="btn btn-sm btn-outline-dark">More details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-md-6">
+        <div class="card border-0 shadow" style="max-width: 350px; margin: auto;">
+           <img class="card-img-top" src="images/hall1.jpg" >
+           <div class="card-body">
+              <h5 class="card-title">Hall Name</h5>
+              <h6 class="mb-4">Rs. 1000 per person</h6>
+              <div class="features mb-4">
+                <h6 class="mb-1">Features</h6>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Wi-Fi</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Sound System</span>
+                <span class="badge rounded-pill bg-light text-dark mb-3 text-wrap ln-base">Air Conditioner</span>
+              </div>
+              <div class="rating mb-4">
+                <h6 class="mb-1">Rating</h6>
+                <i class="bi bi-star-fill text-warning"></i>
+                <span>4.6</span>
+              </div>
+              <div class="d-flex justify-content-evenly mb-2">
+               <a href="#" class="btn btn-sm text-white custom-bg shadow-none">Book Now</a>
+               <a href="#" class="btn btn-sm btn-outline-dark">More details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="col-lg-12 text-center my-5">
+          <a href="#" class="btn btn-sm btn-outline-dark rounded-0 fw-bold shadow-none">More Halls >></a>
+        </div>
+      </div>
+  </div>
+
+  <!--Testimonials-->
+
+  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold my-3">TESTIMONIALS</h2>
+
+  <div class="container mt-4">
+      <div class="swiper Swiper-testimonials">
+      <div class="swiper-wrapper mb-5">
+
+        <div class="swiper-slide bg-light p-4">
+          <div class="profile d-flex flex-column align-items-center justify-content-end mb-3">
+            <img src="images/hall1.jpg" style="width:300px;">
+            <h6 class="m-0 mt-3">Random User</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt recusandae aspernatur odit
+             quo dolore eaque ipsam dolorem. 
+          </p>
+          <div class="rating text-center">
+              <h6 class="mb-1">Rating</h6>
+              <i class="bi bi-star-fill text-warning"></i>
+              <span>4.6</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide bg-light p-4">
+          <div class="profile d-flex flex-column align-items-center justify-content-end mb-3">
+            <img src="images/hall1.jpg" style="width:300px;">
+            <h6 class="m-0 mt-3">Random User</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt recusandae aspernatur odit
+             quo dolore eaque ipsam dolorem. 
+          </p>
+          <div class="rating text-center">
+              <h6 class="mb-1">Rating</h6>
+              <i class="bi bi-star-fill text-warning"></i>
+              <span>4.6</span>
+          </div>
+        </div>
+
+        <div class="swiper-slide bg-light p-4">
+          <div class="profile d-flex flex-column align-items-center justify-content-end mb-3">
+            <img src="images/hall1.jpg" style="width:300px;">
+            <h6 class="m-0 mt-3">Random User</h6>
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt recusandae aspernatur odit
+             quo dolore eaque ipsam dolorem. 
+          </p>
+          <div class="rating text-center">
+              <h6 class="mb-1">Rating</h6>
+              <i class="bi bi-star-fill text-warning"></i>
+              <span>4.6</span>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="swiper-pagination mb-3"></div>
+    </div>
+  </div>
+
+  <!--Reach Us-->
+  <h2 class="mt-5 pt-4 mb-4 text-center fw-bold my-3">REACH US</h2>
+  <div class="container">
+    <div class="row">
+      
+      <div class="col-lg-8 col-md-8 p-4 pt-0 mb-lg-0 mb-3 bg-white rounded">
+      <iframe class="w-100 rounded" height="320px" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14064.441540947919!2d83.96190128183343!3d28.203958671419652!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995956b63dafedb%3A0x87bfe649235d6900!2sSimalchaur!5e0!3m2!1sen!2snp!4v1655823066881!5m2!1sen!2snp"  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-lg-4 col-md-4 ">
+        <div class="bg-white mb-3">
+          <h5>Call Us</h5>
+          <a href="tel: +9779846066632" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"></i>
+          +977 9846066632</a>
+          <br>
+          <a href="tel: +9779846066632" class="d-inline-block mb-2 text-decoration-none text-dark"><i class="bi bi-telephone-fill"></i>
+          +977 9846066632</a>
+        </div>
+
+        <div class="bg-white">
+          <h5>Follow Us</h5>
+          <a href="#" class="d-inline-block mb-3">
+           <span class="badge bg-light text-dark fs-6 p-2">
+           <i class="bi bi-twitter me-1"></i>Twitter
+           </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+           <span class="badge bg-light text-dark fs-6 p-2">
+           <i class="bi bi-facebook me-1"></i>Facebook
+           </span>
+          </a>
+          <br>
+          <a href="#" class="d-inline-block mb-3">
+           <span class="badge bg-light text-dark fs-6 p-2">
+           <i class="bi bi-instagram me-1"></i>Instagram
+           </span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
+ <!-- Footer -->
+ <div class="container-fluid bg-white mt-5">
+  <div class="row">
+    <div class="col-lg-4 p-4">
+      <h3 class="fw-bold fs-3 mb-2">
+      Hall Booking System
+      </h3>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea fugiat voluptatum commodi 
+        iure eaque similique hic ipsa sed dolore, eius porro dolores id, natus soluta?</p>
+    </div>
+    <div class="col-lg-4 p-4">
+      <h5 class="mb-3">Links</h5>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact us</a><br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
+    </div>
+    <div class="col-lg-4 p-4">
+      <h5 class="mb-3">Follow us</h5>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none ">
+        <i class="bi bi-twitter me-1"></i>Twitter
+      </a>
+      <br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none ">
+        <i class="bi bi-facebook me-1"></i>Facebook
+      </a>
+      <br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none ">
+        <i class="bi bi-instagram me-1"></i>Instagram
+      </a>
+    </div>
+  </div>
+ </div>
+ <!-- <div class="container">
+ <h6 class="text-center bg-dark text-white p-3 m-0">Designed and developed by Hall Booking System</h6>
+ </div> -->
+ 
+
+        <footer class="p-3 bg-dark text-white text-center position-relative">
       <div class="container">
         <p class="lead">Copyright &copy; 2022 Hall Booking System</p>
 
-        <a href="#" class="position-absolute bottom-0 end-0 p-5">
-          <i class="bi bi-arrow-up-circle h1"></i>
+        <a href="#" class="position-absolute bottom-0 end-0 p-3">
+          <i class="bi bi-arrow-up-circle text-white h1"></i>
         </a>
       </div>
     </footer>
@@ -268,6 +499,38 @@
                 disableOnInteraction: false,
             }
         });
+
+        var swiper = new Swiper(".Swiper-testimonials", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "3",
+        loop: true,
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: false,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        breakpoints: {
+          320: {
+            slidesPerView: 1,
+          },
+          640: {
+            slidesPerView: 1,
+          },
+          768: {
+            slidesPerView: 2,
+          },
+          1024: {
+            slidesPerView: 3,
+          },
+        }
+      });
         </script>
 </body>
 </html>
