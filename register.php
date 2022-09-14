@@ -12,7 +12,7 @@
         <form class="login-email" action="connection.php" method="post">
             <p class="login-text">Registration</p>
             <div class="input-group">
-                <input type="text" class="name" name="name" placeholder="Username" required>
+                <input type="text" class="name" name="user_name" placeholder="Username" required>
             </div>
             <div class="input-group">
                 <input type="text" class="address" name="address" placeholder="Address" required>
@@ -30,7 +30,7 @@
                 <input type="password" class="password" placeholder="Confirm Password" name="cpassword" required>
             </div>
             <div class="input-group">
-                <button type="submit" class="button">Login</button>
+                <button type="submit" class="button">Register</button>
             </div>  
             <p class="login-register-text">Already have an account? <a href="login.html">Login Here</a></p>
             

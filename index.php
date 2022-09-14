@@ -22,10 +22,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link active me-2" aria-current="page" href="#">Home</a>
+          <a class="nav-link active me-2" aria-current="page" href="index.php">Home</a>
         </li>
         <li class="nav-item">
           <a class="nav-link me-2" href="#">About us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link me-2" href="rooms.php">Halls</a>
         </li>
         <li class="nav-item">
           <a class="nav-link me-2" href="#">Contact us</a>
@@ -63,11 +66,11 @@
                 <form action="">
                     <div class="row align-items-end">
                         <div class="col-lg-4">
-                            <label class="form-label" style="font-weight: 500;">Enter city</label>
+                            <label class="form-label" style="font-weight: 500;">City</label>
                             <input type="text" class="form-control shadow-none">
                         </div>
                         <div class="col-lg-3">
-                        <label class="form-label" style="font-weight: 500;">Enter city</label>
+                        <label class="form-label" style="font-weight: 500;">Number of guests</label>
                         <select class="form-select shadow-none">
                         <option selected>Open this select menu</option>
                         <option value="50">less than 50</option>
@@ -77,7 +80,7 @@
                         </select>
                         </div>
                         <div class="col-lg-3">
-                        <label class="form-label" style="font-weight: 500;">Enter city</label>
+                        <label class="form-label" style="font-weight: 500;">Occassion</label>
                         <select class="form-select shadow-none">
                         <option selected>Select occasion</option>
                         <option value="Aniversary">Anniversary</option>
@@ -348,6 +351,7 @@
           <p>
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur nesciunt recusandae aspernatur odit
              quo dolore eaque ipsam dolorem. 
+             
           </p>
           <div class="rating text-center">
               <h6 class="mb-1">Rating</h6>
@@ -452,7 +456,7 @@
     <div class="col-lg-4 p-4">
       <h5 class="mb-3">Links</h5>
       <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Home</a><br>
-      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Rooms</a><br>
+      <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Halls</a><br>
       <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">Contact us</a><br>
       <a href="#" class="d-inline-block mb-2 text-dark text-decoration-none">About</a><br>
     </div>

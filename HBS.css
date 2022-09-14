@@ -1,6 +1,11 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+.availability-form{
+    margin-top: -50px;
+    z-index: 2;
+    position: relative;
+}
 .h-font {
     font-family: 'Merienda', cursive;
 }
@@ -9,4 +14,9 @@
 }
 .custom-bg:hover{
     background-color: #279e8c;
+}
+.custom-alert{
+    position: fixed;
+    top: 25px;
+    right: 25px;
 }
